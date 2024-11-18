@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#titHome {
+  font-size: 30px;
+}
+
+body{
+  background: #7265be;
+  background-size: 100%;
+}
+
+button{
+  padding: 15px;
+  background-color: #b0be64;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin: 10px;
+  border: none;
+}
+
+input{
+  background-color: rgba(210, 212, 196, 0.671);
+  color: #1a1a1a;
+  text-align: center;
+  width: 50%;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
