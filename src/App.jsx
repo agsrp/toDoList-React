@@ -42,7 +42,8 @@ function App() {
 
   return (
     <>
-      <h2 id='titHome'>Lista de tareas</h2>
+      <h1 id='titHome'>LISTA DE TAREAS</h1>
+      <p className='pTarea'>Escribí la tarea a realizar:</p>
       <Form
         addTaski = {addTaski}
         handleChange = {handleChange}

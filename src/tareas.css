@@ -1,26 +1,40 @@
+
+
 #completar{
-    transition: all 500ms ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 100ms ease-in-out;
 }
 
 #completar:hover{
     background-color: #b0be64;
-    transition: all 500ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 
 #eliminar{
-    background-color: brown;
-    transition: all 500ms ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(207, 38, 38);
+    transition: all 100ms ease-in-out;
+}
+
+#eliminar:hover{
+    background-color: rgb(150, 6, 6);
 }
 
 .completada{
+    
     text-decoration: line-through;
 }
 
 .noCompleta{
+    
     text-decoration: none;
 }
 
 .cTarea{
+    color: black;
     padding: 5px;
     border-radius: 10px;
     margin: 10px;
@@ -29,6 +43,7 @@
 }
 
 .cTareaCompleta{
+    color: aliceblue;
     background-color: rgba(210, 212, 196, 0.301);
 }
 
